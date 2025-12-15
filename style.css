@@ -198,6 +198,20 @@ h2{
     font-size: 12px;
 }
 
+.produto {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  align-items: center;
+}
+
+.produto img {
+  width: 280px;        /* tamanho visível e bonito */
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+
 
 
 
