@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background-color: #cbcbd0;
+    color: #000;
+    font-size: 15px;
+}
+
+/* HEADER */
+.header {
+    width: 100%;
+    background-color: #2f3337;
+    padding: 14px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;   /* <-- deixa fixa */
+    top: 0;
+    left: 0;
+    z-index: 1000;     /* fica acima de tudo */
+}
+
+
+
+.logo {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.selo {
+    background-color: #163b63;
+    color: #fff;
+    font-size: 11px;
+    padding: 3px 7px;
+    border-radius: 5px;
+    margin-left: 8px;
+}
+
+.menu a {
+    margin-left: 22px;
+    text-decoration: none;
+    color: #ffffffcc;
+    font-size: 14px;
+}
+
+.menu a:hover {
+    color: #0b0bb9;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    background: linear-gradient(
+        to bottom,
+        #022f58 30%,
+        #cbcbd0 100%
+        
+    );
+    padding: 70px 40px;
+}
+
+.hero h1 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #04046b;
+    margin-bottom: 8px;
+}
+
+.hero p {
+    font-size: 14px;
+    color: #f0f0f0;
+}
+
+/* PRODUTOS */
+h2{
+    color: #0505a1;
+}
+.produtos {
+    width: 90%;
+    max-width: 1100px;
+    margin: 60px auto;
+    
+}
+
+.produto {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 25px;
+    margin-bottom: 40px;
+    border-radius: 12px;
+}
+
+.produto img {
+    width: 12%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+.descricao {
+    width: 55%;
+}
+
+.descricao h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #13198a;
+    font-weight: 600;
+}
+
+.descricao p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #000;
+}
+
+/* BLOCOS */
+.claro {
+    background-color: #8d8d91;
+}
+
+.escuro {
+    background-color: #aaabb3;
+}
+
+/* CONTATO */
+.contato {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto 60px auto;
+}
+
+.contato h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #25279b;
+}
+
+.contato p {
+    font-size: 14px;
+    color: #000;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #333639;
+    color: #4b63f9;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 13px;
+}
+
+.social {
+    margin: 15px 0;
+}
+
+.social a {
+    margin: 0 8px;
+    padding: 10px 18px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* BOTÕES */
+.zap {
+    background-color: #1f6fb2;
+}
+
+.zap:hover {
+    background-color: #155a94;
+    transform: translateY(-2px);
+}
+
+.face {
+    background-color: #7a2cbf;
+}
+
+.face:hover {
+    background-color: #5e1f97;
+    transform: translateY(-2px);
+}
+
+.footer-info {
+    font-size: 12px;
+}
