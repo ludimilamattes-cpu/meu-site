@@ -197,3 +197,27 @@ h2{
 .footer-info {
     font-size: 12px;
 }
+
+
+
+.produto,
+.produto img,
+.produto-imagem {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.produto img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+
+
+
+
+
