@@ -99,7 +99,7 @@ h2{
 }
 
 .produto img {
-    width: 12%;
+    width: 200px;
     height: auto;
     border-radius: 10px;
     object-fit: contain;
